@@ -1,21 +1,18 @@
 --- RESTAURANTS
 
-create database ems;
-
-
 DROP TABLE IF EXISTS restaurant;
 
 DROP SEQUENCE IF EXISTS restaurant_id;
 
 create sequence restaurant_id;
 
-create table restaurant 
+create table restaurant
 (
-id INT PRIMARY KEY DEFAULT NEXTVAL('restaurant_id'), 
-rest_name VARCHAR(50) not null, 
-rest_address VARCHAR(150) not null, 
-rest_type VARCHAR(20), 
-capacity NUMERIC(6,2), 
+id INT PRIMARY KEY DEFAULT NEXTVAL('restaurant_id'),
+rest_name VARCHAR(50) not null,
+rest_address VARCHAR(150) not null,
+rest_type VARCHAR(20),
+capacity NUMERIC(6,2),
 description VARCHAR(100));
 
 
@@ -55,6 +52,7 @@ CREATE TABLE role (
 DROP TABLE IF EXISTS app_user;
 
 DROP SEQUENCE IF EXISTS user_id_seq;
+
 CREATE SEQUENCE user_id_seq;
 
 CREATE TABLE app_user (
@@ -63,7 +61,7 @@ CREATE TABLE app_user (
   last_name VARCHAR(255) NOT NULL,
   first_name      VARCHAR(255) NOT NULL,
   password  VARCHAR(255) NOT NULL,
-  active BOOLEAN;
+  active BOOLEAN
 );
 
 
@@ -72,7 +70,9 @@ CREATE TABLE app_user (
 --
 
 DROP TABLE IF EXISTS user_role;
+
 CREATE SEQUENCE user_role_id_seq;
+
 CREATE TABLE user_role (
   id        NUMERIC      NOT NULL DEFAULT nextval('user_role_id_seq' :: REGCLASS) PRIMARY KEY,
   user_id numeric not null,
@@ -83,4 +83,5 @@ CREATE TABLE user_role (
 
 
 insert into role (name) values ('ROLE_ADMIN')
+
 insert into role (name) values ('USER')
