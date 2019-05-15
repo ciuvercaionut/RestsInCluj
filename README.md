@@ -6,11 +6,11 @@ This Web App moves towards connecting people's points of view and thoughts on go
 This application stared as a final project for the Java Development course of The Informal School of it and up to a presentation it was developed by 3 students and now I'm working alone on it.
 
 We used:
-1.Spring Boot
-2.PostgresSQL
-3.Thymeleaf
-4.JUnit
-5.Mokito
+1. Spring Boot
+2. PostgresSQL
+3. Thymeleaf
+4. JUnit
+5. Mokito
 
 
 Images:
