@@ -10,9 +10,11 @@ This application stared as a final project for the Java Development course of Th
 We used:
 1. Spring Boot
 2. PostgresSQL
-3. Thymeleaf
-4. JUnit
-5. Mokito
+3. JDBC
+4. RestAPI
+5. Thymeleaf
+6. JUnit
+7. Mokito
 
 # Images
 
