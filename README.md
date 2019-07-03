@@ -1,3 +1,5 @@
+
+
 # RestsInCluj  
 
 This Web App moves towards connecting people's points of view and thoughts on good food and having a hoot and a half of an experience in their own city. Finding a nice place to enjoy the company of your friends is always something that should not be taken for granted.
@@ -12,6 +14,35 @@ We used:
 4. JUnit
 5. Mokito
 
+# Images
 
-Images:
-![Home page](Home.jpg)
+  --- Home Page ---       
+<img src="Images/HomePage.PNG" width="300">
+
+
+ --- Register form ---    
+<img src="Images/RegisterForm.PNG" width="200">
+  
+     
+ --- Login form ---    
+<img src="Images/SignInForm.PNG" width="200">
+  
+  
+  --- Places to eat ---     
+<img src="Images/PlacesToEat.PNG" width="200">
+
+
+  --- Add/Edit Restaurant Form ---    
+<img src="Images/Add,EditRestaurantForm.PNG" width="200">
+
+
+  --- Reviews ---     
+<img src="Images/ReviewsPage.PNG" width="200">
+
+
+  --- Add review form ---    
+<img src="Images/AddReviewForm.PNG" width="200">
+
+
+  --- About Us ---    
+<img src="Images/AboutUsPage.PNG" width="200">
