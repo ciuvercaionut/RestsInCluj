@@ -25,24 +25,24 @@ We used:
   
      
  --- Login form ---    
-<img src="Images/SignInForm.PNG" width="200">
+<img src="Images/SignInForm.PNG" width="250">
   
   
   --- Places to eat ---     
-<img src="Images/PlacesToEat.PNG" width="200">
+<img src="Images/PlacesToEat.PNG" width="250">
 
 
   --- Add/Edit Restaurant Form ---    
-<img src="Images/Add,EditRestaurantForm.PNG" width="200">
+<img src="Images/Add,EditRestaurantForm.PNG" width="250">
 
 
   --- Reviews ---     
-<img src="Images/ReviewsPage.PNG" width="200">
+<img src="Images/ReviewsPage.PNG" width="250">
 
 
   --- Add review form ---    
-<img src="Images/AddReviewForm.PNG" width="200">
+<img src="Images/AddReviewForm.PNG" width="250">
 
 
   --- About Us ---    
-<img src="Images/AboutUsPage.PNG" width="200">
+<img src="Images/AboutUsPage.PNG" width="250">
