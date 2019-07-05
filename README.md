@@ -14,7 +14,7 @@ We used:
 4. RestAPI
 5. Thymeleaf
 6. JUnit
-7. Mokito
+7. Mockito
 
 # Images
 
